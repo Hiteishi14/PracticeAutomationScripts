@@ -1,0 +1,21 @@
+import time
+from Tools.scripts.linktree import linknames
+from selenium import webdriver
+driver=webdriver.Chrome()
+driver.get(r'https://practicetestautomation.com/practice-test-login/')
+driver.maximize_window()
+time.sleep(3)
+#driver.find_element('name','name').send_keys('Hiteishi')
+#driver.find_element('name','email').send_keys('hiteishi.omkar@gmail.com')
+#driver.find_element('name','password').send_keys('Hiteishi@1425')
+#driver.find_element('css selector',"button[type='submit']").click()
+#driver.find_element('xpath','/html/body/div/div/section/section/div/div/input').send_keys('student')
+#driver.find_element('xpath','/html/body/div/div/section/section/div/div[2]/input').send_keys('Password123')
+#driver.find_element('xpath','/html/body/div/div/section/section/div/button').click()
+time.sleep(3)
+#links=driver.find_elements('tag name','a')
+#print(len(links))
+#images=driver.find_elements('tag name','img')
+#print(len(images))
+#driver.find_element('link text',' Practice Test Automation.').click()
+#driver.find_element('partial link text',' Practice').click()
